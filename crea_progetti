@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="it"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Dashboard Progetti</title>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope:wght@400;500;700;800" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #1979e6;
+        --secondary-color: #e5e7eb;
+        --background-color: #f8fafc;
+        --text-primary: #111827;
+        --text-secondary: #6b7280;
+        --card-background: #ffffff;
+      }
+      body {
+        font-family: 'Manrope', sans-serif;
+        background-color: var(--background-color);
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="text-[var(--text-primary)]">
+<div class="relative flex size-full min-h-screen flex-col justify-between group/design-root">
+<div class="flex-grow">
+<header class="bg-[var(--background-color)] sticky top-0 z-10 px-4 pt-6 pb-4">
+<div class="flex items-center justify-between">
+<h1 class="text-3xl font-bold tracking-tight">I Miei Progetti</h1>
+<button class="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-[var(--primary-color)] text-white shadow-lg">
+<svg fill="currentColor" height="28px" viewBox="0 0 256 256" width="28px" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path>
+</svg>
+</button>
+</div>
+</header>
+<main class="p-4 space-y-6">
+<div class="bg-[var(--card-background)] rounded-2xl shadow-md overflow-hidden">
+<div class="p-5">
+<div class="flex items-start justify-between">
+<div class="flex-grow pr-4">
+<h2 class="text-lg font-bold text-[var(--text-primary)]">Campagna Marketing</h2>
+<p class="text-sm text-[var(--text-secondary)] mt-1">Scadenza: 15 Luglio 2024</p>
+</div>
+<div class="w-16 h-16 bg-center bg-no-repeat bg-cover rounded-xl flex-shrink-0" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC_thArjvSbjpp_Rb-EUrigk4aWZSl3S0j_BT7Jio8lrvpxH44-6E6hrPQoGGFER1LzTz41tryZ8r5A2AEZNi7xQYvBrdtVkMxXOsanRwbPTyP8a9bDwS7RsysH9mBnP0lyG3YrMxmlxnookONHVEn_pF0fwEx5rWzG8oKmShyZZvO3RE0W8c5L1LkhoLH59Gku1sXDN0dOUoEt5hRZOQ0ZIMnHzIRrHzqbQ80mak0PMABImCFXPKkzZQBQfTMgEHZpdbKf3QMtWEZi");'></div>
+</div>
+<div class="mt-4">
+<div class="flex justify-between items-center mb-1">
+<p class="text-sm font-medium text-[var(--text-secondary)]">Avanzamento</p>
+<p class="text-sm font-bold text-[var(--primary-color)]">60%</p>
+</div>
+<div class="w-full bg-[var(--secondary-color)] rounded-full h-2.5">
+<div class="bg-[var(--primary-color)] h-2.5 rounded-full" style="width: 60%;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-[var(--card-background)] rounded-2xl shadow-md overflow-hidden">
+<div class="p-5">
+<div class="flex items-start justify-between">
+<div class="flex-grow pr-4">
+<h2 class="text-lg font-bold text-[var(--text-primary)]">Lancio Prodotto</h2>
+<p class="text-sm text-[var(--text-secondary)] mt-1">Scadenza: 20 Agosto 2024</p>
+</div>
+<div class="w-16 h-16 bg-center bg-no-repeat bg-cover rounded-xl flex-shrink-0" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD20uImGpci9u42FkSFi-cwDUpb7EpdySxNCx1Oq5Tb1mZwUjYN81dbrAVvGMGA3IIU1yVgOv8qWl9akwDKpCrMWjUtB7CUUwVaLyFKFJAZwz0Q9D0Iqac6W1IBEbe0a3gym87faRjTdA1nRZsuLB0YyrJdpQdmp81H9VyCeA_fiPUj9Bppkty_2wuTsdxiAzXwb1ghH75DcjRlj516m3natYhzTbTgOzX4Y5ym6Ivyw4O733DHAgQX8WIHeIuzGc1e-ll2hltan8xG");'></div>
+</div>
+<div class="mt-4">
+<div class="flex justify-between items-center mb-1">
+<p class="text-sm font-medium text-[var(--text-secondary)]">Avanzamento</p>
+<p class="text-sm font-bold text-[var(--primary-color)]">30%</p>
+</div>
+<div class="w-full bg-[var(--secondary-color)] rounded-full h-2.5">
+<div class="bg-[var(--primary-color)] h-2.5 rounded-full" style="width: 30%;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-[var(--card-background)] rounded-2xl shadow-md overflow-hidden">
+<div class="p-5">
+<div class="flex items-start justify-between">
+<div class="flex-grow pr-4">
+<h2 class="text-lg font-bold text-[var(--text-primary)]">Ritiro Aziendale</h2>
+<p class="text-sm text-[var(--text-secondary)] mt-1">Scadenza: 05 Settembre 2024</p>
+</div>
+<div class="w-16 h-16 bg-center bg-no-repeat bg-cover rounded-xl flex-shrink-0" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDwAKRz0g7dEyu2XUlIj4mfF1S5oC7YEwA3SMqvMsWzYrth_oxeVrQ3sSa5Z73V_xshW5J2T1-ztYLVkHN2vV3cXs3AnQG7keqmXxDpkJmIQZbzuDDy0qa-oDZk6PJrPIk1Xr9FjBjib-0pDwWi6Z6vmmGyeCenvP1nS2qCf11NL3tSjMleJ4O2hrpha_i0H-5sbqtP2sRihxeXZlnQmIF-i1FwxNsI2WeLnDI6WO-KoJR_Ccj7DbAgoRPBFTXxx8xSb_Ces8e9Cv4-");'></div>
+</div>
+<div class="mt-4">
+<div class="flex justify-between items-center mb-1">
+<p class="text-sm font-medium text-[var(--text-secondary)]">Avanzamento</p>
+<p class="text-sm font-bold text-[var(--primary-color)]">85%</p>
+</div>
+<div class="w-full bg-[var(--secondary-color)] rounded-full h-2.5">
+<div class="bg-[var(--primary-color)] h-2.5 rounded-full" style="width: 85%;"></div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<footer class="sticky bottom-0 bg-white border-t border-gray-200">
+<nav class="flex justify-around px-4 pt-3 pb-4">
+<a class="flex flex-col items-center justify-center gap-1 text-[var(--text-secondary)]" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M218.83,103.77l-80-75.48a1.14,1.14,0,0,1-.11-.11,16,16,0,0,0-21.53,0l-.11.11L37.17,103.77A16,16,0,0,0,32,115.55V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V160h32v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V115.55A16,16,0,0,0,218.83,103.77ZM208,208H160V160a16,16,0,0,0-16-16H112a16,16,0,0,0-16,16v48H48V115.55l.11-.1L128,40l79.9,75.43.11.1Z"></path>
+</svg>
+<span class="text-xs font-medium">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-[var(--primary-color)]" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M216,72H176V56a24,24,0,0,0-24-24H104A24,24,0,0,0,80,56v8H40a16,16,0,0,0-16,16V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V88A16,16,0,0,0,216,72Zm-40-16a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8h16a8,8,0,0,1,8,8v8a8,8,0,0,1-8,8ZM96,56a8,8,0,0,1,8-8h16a8,8,0,0,1,8,8v8a8,8,0,0,1-8,8H104a8,8,0,0,1-8-8ZM208,200H48V88H208Z"></path>
+</svg>
+<span class="text-xs font-bold">Progetti</span>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-[var(--text-secondary)]" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M173.66,98.34a8,8,0,0,1,0,11.32l-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35A8,8,0,0,1,173.66,98.34ZM224,48V208a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V48A16,16,0,0,1,48,32H208A16,16,0,0,1,224,48ZM208,208V48H48V208H208Z"></path>
+</svg>
+<span class="text-xs font-medium">Attività</span>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-[var(--text-secondary)]" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M117.25,157.92a60,60,0,1,0-66.5,0A95.83,95.83,0,0,0,3.53,195.63a8,8,0,1,0,13.4,8.74,80,80,0,0,1,134.14,0,8,8,0,0,0,13.4-8.74A95.83,95.83,0,0,0,117.25,157.92ZM40,108a44,44,0,1,1,44,44A44.05,44.05,0,0,1,40,108Zm210.14,98.7a8,8,0,0,1-11.07-2.33A79.83,79.83,0,0,0,172,168a8,8,0,0,1,0-16,44,44,0,1,0-16.34-84.87,8,8,0,1,1-5.94-14.85,60,60,0,0,1,55.53,105.64,95.83,95.83,0,0,1,47.22,37.71A8,8,0,0,1,250.14,206.7Z"></path>
+</svg>
+<span class="text-xs font-medium">Team</span>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-[var(--text-secondary)]" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Zm88-29.84q.06-2.16,0-4.32l14.92-18.64a8,8,0,0,0,1.48-7.06,107.21,107.21,0,0,0-10.88-26.25,8,8,0,0,0-6-3.93l-23.72-2.64q-1.48-1.56-3-3L186,40.54a8,8,0,0,0-3.94-6,107.71,107.71,0,0,0-26.25-10.87,8,8,0,0,0-7.06,1.49L130.16,40Q128,40,125.84,40L107.2,25.11a8,8,0,0,0-7.06-1.48A107.6,107.6,0,0,0,73.89,34.51a8,8,0,0,0-3.93,6L67.32,64.27q-1.56,1.49-3,3L40.54,70a8,8,0,0,0-6,3.94,107.71,107.71,0,0,0-10.87,26.25,8,8,0,0,0,1.49,7.06L40,125.84Q40,128,40,130.16L25.11,148.8a8,8,0,0,0-1.48,7.06,107.21,107.21,0,0,0,10.88,26.25,8,8,0,0,0,6,3.93l23.72,2.64q1.49,1.56,3,3L70,215.46a8,8,0,0,0,3.94,6,107.71,107.71,0,0,0,26.25,10.87,8,8,0,0,0,7.06-1.49L125.84,216q2.16.06,4.32,0l18.64,14.92a8,8,0,0,0,7.06,1.48,107.21,107.21,0,0,0,26.25-10.88,8,8,0,0,0,3.93-6l2.64-23.72q1.56-1.48,3-3L215.46,186a8,8,0,0,0,6-3.94,107.71,107.71,0,0,0,10.87-26.25,8,8,0,0,0-1.49-7.06Zm-16.1-6.5a73.93,73.93,0,0,1,0,8.68,8,8,0,0,0,1.74,5.48l14.19,17.73a91.57,91.57,0,0,1-6.23,15L187,173.11a8,8,0,0,0-5.1,2.64,74.11,74.11,0,0,1-6.14,6.14,8,8,0,0,0-2.64,5.1l-2.51,22.58a91.32,91.32,0,0,1-15,6.23l-17.74-14.19a8,8,0,0,0-5-1.75h-.48a73.93,73.93,0,0,1-8.68,0,8,8,0,0,0-5.48,1.74L100.45,215.8a91.57,91.57,0,0,1-15-6.23L82.89,187a8,8,0,0,0-2.64-5.1,74.11,74.11,0,0,1-6.14-6.14,8,8,0,0,0-5.1-2.64L46.43,170.6a91.32,91.32,0,0,1-6.23-15l14.19-17.74a8,8,0,0,0,1.74-5.48,73.93,73.93,0,0,1,0-8.68,8,8,0,0,0-1.74-5.48L40.2,100.45a91.57,91.57,0,0,1,6.23-15L69,82.89a8,8,0,0,0,5.1-2.64,74.11,74.11,0,0,1,6.14-6.14A8,8,0,0,0,82.89,69L85.4,46.43a91.32,91.32,0,0,1,15-6.23l17.74,14.19a8,8,0,0,0,5.48,1.74,73.93,73.93,0,0,1,8.68,0,8,8,0,0,0,5.48-1.74L155.55,40.2a91.57,91.57,0,0,1,15,6.23L173.11,69a8,8,0,0,0,2.64,5.1,74.11,74.11,0,0,1,6.14,6.14,8,8,0,0,0,5.1,2.64l22.58,2.51a91.32,91.32,0,0,1,6.23,15l-14.19,17.74A8,8,0,0,0,199.87,123.66Z"></path>
+</svg>
+<span class="text-xs font-medium">Impost.</span>
+</a>
+</nav>
+</footer>
+</div>
+
+</body></html>
